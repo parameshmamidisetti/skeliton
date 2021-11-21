@@ -12,7 +12,11 @@ class _FirstPageState extends State<FirstPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('skeliton'),
+        title: const Text('skeliton app'),
+
+      ),
+      body: Container(
+        color: Colors.amber,
       ),
     );
   }

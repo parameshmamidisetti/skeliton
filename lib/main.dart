@@ -17,6 +17,7 @@ class _MyAppState extends State<MyApp> {
     return const MaterialApp(
       home: FirstPage(),
       color: Colors.amber,
+      
     );
   }
 }
