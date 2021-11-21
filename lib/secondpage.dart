@@ -14,7 +14,9 @@ class _SecondPageState extends State<SecondPage> {
 appBar: AppBar(
   title:const Text('secondpage'),
   centerTitle: true,
-),      
+),  body: Container(
+  color: Colors.orange,
+),    
     );
   }
 }
