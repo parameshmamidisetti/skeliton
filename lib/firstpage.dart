@@ -17,6 +17,7 @@ class _FirstPageState extends State<FirstPage> {
       ),
       body: Container(
         color: Colors.amber,
+        height: 36,
       ),
     );
   }
