@@ -15,7 +15,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: FirstPage()
+      home: FirstPage(),
+      color: Colors.amber,
     );
   }
 }
