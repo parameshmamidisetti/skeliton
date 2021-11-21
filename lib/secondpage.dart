@@ -12,7 +12,8 @@ class _SecondPageState extends State<SecondPage> {
   Widget build(BuildContext context) {
     return Scaffold(
 appBar: AppBar(
-  title:Text('secondpage'),
+  title:const Text('secondpage'),
+  centerTitle: true,
 ),      
     );
   }
