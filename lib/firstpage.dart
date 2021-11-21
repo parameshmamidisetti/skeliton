@@ -20,7 +20,7 @@ class _FirstPageState extends State<FirstPage> {
           Column(
             children: [
               Container(
-                
+                height: 34,
               )
             ],
           )
