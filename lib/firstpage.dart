@@ -15,7 +15,19 @@ class _FirstPageState extends State<FirstPage> {
         title: const Text('skeliton'),
         centerTitle: true,
       ),
-      body: Container(color: Colors.amber,),
+      body:  Container(color: Colors.amber,child: ListView(
+        children: [
+          Column(
+            children: [
+              Container(
+                
+              )
+            ],
+          )
+        ],
+      ),)
+       
+      
     );
   }
 }
